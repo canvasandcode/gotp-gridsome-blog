@@ -3,7 +3,7 @@
     <div
       class="featured-post-card bg-gray-200 rounded-lg hover:shadow-xl z-100 h-half-screen lg:h-full"
     >
-      <VueSlickCarousel :arrows="true" :dots="false" class="h-full rounded-lg">
+      <VueSlickCarousel :arrows="true" :dots="true" class="h-full rounded-lg">
         <div class="h-full relative" v-for="edge in records" :key="edge.node.id">
           <g-link :to="edge.node.path">
             <div class="h-full relative" :id="edge.node.id">

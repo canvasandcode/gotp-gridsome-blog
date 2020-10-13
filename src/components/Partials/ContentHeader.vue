@@ -11,6 +11,7 @@
         :src="require(`!!assets-loader!@pageImage/${image}`)"
         width="1400"
         height="400"
+        immediate="true"
         class="object-cover absolute -z-10 h-full w-full"
       ></g-image>
 
@@ -19,6 +20,7 @@
         :src="image"
         width="1400"
         height="400"
+        immediate="true"
         class="object-cover absolute -z-10 h-full w-full"
       ></g-image>
 
